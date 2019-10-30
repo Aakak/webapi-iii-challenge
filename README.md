@@ -86,6 +86,9 @@ The _Database Schemas_ for the `users` and `posts` resources are:
 
 We have provided test data for the resources.
 
+
+
+
 ## Stretch Goals
 
 - Add the Post Router
