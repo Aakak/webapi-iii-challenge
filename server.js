@@ -1,11 +1,12 @@
 // const express = 'express';
+require('dotenv').config();
 const express = require('express');
 const server = express();
 const postRouter = require('./posts/postRouter');
 const userRouter = require('./users/userRouter');
 
 server.get('/', (req, res) => {
-  res.send(`<h2>Let's write some middleware!</h2>`)
+  res.send(`<h2>Let's write some middleware and deploy on Heroku</h2>`)
 });
 
 
