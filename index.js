@@ -1,1 +1,13 @@
-// code away!
+// // code away!
+
+const server = require('./server.js');
+
+const port = process.env.PORT || 4000;
+
+console.log('\nmessage:', process.env.MSG);
+
+server.listen(port, () => {
+  console.log(`\n* Server Running on ${port} *\n`);
+});
+
+
